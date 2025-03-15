@@ -1,0 +1,87 @@
+<html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+
+        /* 椭圆样式 */
+        .ellipse {
+            width: 200px;
+            height: 100px;
+            background: radial-gradient(circle, red, yellow, green);
+            border-radius: 50%;
+            animation: gradientAnimation 5s infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background: radial-gradient(circle, red, yellow, green); }
+            50% { background: radial-gradient(circle, green, red, yellow); }
+            100% { background: radial-gradient(circle, yellow, green, red); }
+        }
+    </style>
+</head>
+<body>
+    <!-- 椭圆 -->
+    <div class="ellipse"></div>
+
+    <h1>个人简历</h1>
+
+    <table>
+        <tr>
+            <th>姓名</th>
+            <td>简小丽</td>
+            <th>年龄</th>
+            <td>26</td>
+        </tr>
+        <tr>
+            <th>性别</th>
+            <td>女</td>
+            <th>地址</th>
+            <td>湖南长沙高新区</td>
+        </tr>
+        <tr>
+            <th>电话</th>
+            <td>135-0000-0000</td>
+            <th>婚姻状况</th>
+            <td>已婚</td>
+        </tr>
+    </table>
+
+    <h2>求职意向</h2>
+    <p>区域经理</p >
+
+    <h2>工作经历</h2>
+    <table>
+        <tr>
+            <th>职位</th>
+            <th>工作内容</th>
+        </tr>
+        <tr>
+            <td>社区服务站慢病管理员</td>
+            <td>
+                <ul>
+                    <li>负责为客户进行体检并解读体检结果。</li>
+                    <li>评估客户的健康状况和所患疾病危险性；进行健康咨询与指导。</li>
